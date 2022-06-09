@@ -6,10 +6,10 @@ import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ImprimeOlaTesklet implements Tasklet {
 
-    @Override
+   // @Override
     public RepeatStatus execute(StepContribution stepContribution, ChunkContext chunkContext) throws Exception {
 
         System.out.println(String.format("Olá, mundo!"));
