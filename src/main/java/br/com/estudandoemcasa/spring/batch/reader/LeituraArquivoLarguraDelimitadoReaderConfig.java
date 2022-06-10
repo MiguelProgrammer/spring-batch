@@ -10,11 +10,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.PathResource;
 
-@Configuration
+//@Configuration
 public class LeituraArquivoLarguraDelimitadoReaderConfig {
 
-    @StepScope
-    @Bean
+//    @StepScope
+//    @Bean
     public FlatFileItemReader<Cliente> leituraArquivoLarguraDelimitadoReader(
             @Value("#{jobParameters['arquivoClientes']}") String arquivoClientes){
 

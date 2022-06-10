@@ -1,0 +1,12 @@
+0,Miguel,Pereira da Silva,32,joao@test.com
+1,t1c1,GameBoy,80.00
+1,t2c1,Cartucho Pokemon,20.00
+0,Jéssica,Pereira da Silva,30,maria@test.com
+1,t1c2,Sofa Cama,2000.00
+1,t2c2,Sound Bar,1200.00
+1,t3c3,Rack Tv 58,900.00
+0,Sarah,Nunes da Silva,20,jose@test.com
+1,t1c4,Caderno,15.30
+0,Déborah,Nunes da Silva,20,jose@test.com
+1,t1c4,Mesa para 4,320.90
+1,t2c4,Tapete Carmesim,90.00
