@@ -21,5 +21,9 @@
 ### <b>Step</b>: Task, step, or step running and are chained together to perform the desired processing. If chunk-based it handles <b>itemreader reading</b>,<b>ItemProcessor processing</b>, and<b>ItemWriter writing</b> If it is a simple task, the step can be based on <b>Tasklets</b>
 
 ### <b>Job Launcher</b>: Performs the job in fact, considering factors such as how (single thread, distributed), parameter validation, restart, and other execution properties.
+
+## Documentation
+<div align="center"><img src="https://i.imgur.com/4v64QFT.png" width="900"></div>
+
     
 
