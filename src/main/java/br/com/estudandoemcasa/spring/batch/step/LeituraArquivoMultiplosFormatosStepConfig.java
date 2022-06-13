@@ -1,9 +1,8 @@
 package br.com.estudandoemcasa.spring.batch.step;
 
-import br.com.estudandoemcasa.spring.batch.model.Cliente;
+import br.com.estudandoemcasa.spring.batch.reader.ArquivoClienteTransacaoReader;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
-import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,19 +11,19 @@ import org.springframework.context.annotation.Configuration;
 
 @SuppressWarnings("ALL")
 @Configuration
-public class LeituraArquivoLarguraFixaStepConfig {
+public class LeituraArquivoMultiplosFormatosStepConfig {
 
     @Autowired
     private StepBuilderFactory stepBuilderFactory;
 
     @Bean
-    public Step leituraArquivoLarguraFixaStep(
+    public Step leituraArquivoMultiplosFormatosStep (
             FlatFileItemReader leituraArquivoLarguraFixaReader,
             ItemWriter leituraArquivoLarguraFixaWriter) {
         return stepBuilderFactory
-                .get("leituraArquivoLarguraFixaStep")
+                .get("leituraArquivoMultiplosFormatosStep")
                 .chunk(1)
-                .reader(leituraArquivoLarguraFixaReader)
+                .reader(new ArquivoClienteTransacaoReader(leituraArquivoLarguraFixaReader))
                 .writer(leituraArquivoLarguraFixaWriter)
                 .build();
     }

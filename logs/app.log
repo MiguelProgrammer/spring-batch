@@ -26,3 +26,149 @@
 2022-06-10 21:53:58,650 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=96, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 377ms
 2022-06-10 21:53:58,667 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
 2022-06-10 21:53:58,667 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 15:18:18,378 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 35312 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 15:18:18,384 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 15:18:18,972 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 15:18:19,343 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 15:18:19,887 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 15:18:19,993 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 15:18:20,301 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 15:18:20,409 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.577 seconds (JVM running for 3.792)
+2022-06-13 15:18:20,510 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=97, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 15:18:20,576 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoLarguraFixaStep]
+2022-06-13 15:18:20,793 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoLarguraFixaStep] executed in 217ms
+2022-06-13 15:18:20,812 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=97, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 280ms
+2022-06-13 15:18:20,819 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 15:18:20,827 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 16:09:41,878 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 32720 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:09:41,887 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:09:42,376 WARN o.s.c.a.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'leituraArquivoMultiplosFormatosStepConfig' defined in class path resource [br/com/estudandoemcasa/spring/batch/step/LeituraArquivoMultiplosFormatosStepConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=leituraArquivoMultiplosFormatosStepConfig; factoryMethodName=leituraArquivoMultiplosFormatosStepConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [br/com/estudandoemcasa/spring/batch/step/LeituraArquivoMultiplosFormatosStepConfig.class]] for bean 'leituraArquivoMultiplosFormatosStepConfig': There is already [Generic bean: class [br.com.estudandoemcasa.spring.batch.step.LeituraArquivoMultiplosFormatosStepConfig]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes\br\com\estudandoemcasa\spring\batch\step\LeituraArquivoMultiplosFormatosStepConfig.class]] bound.
+2022-06-13 16:10:18,158 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 2012 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:10:18,175 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:10:18,525 WARN o.s.c.a.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'leituraArquivoMultiplosFormatosStepConfig' defined in class path resource [br/com/estudandoemcasa/spring/batch/step/LeituraArquivoMultiplosFormatosStepConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=leituraArquivoMultiplosFormatosStepConfig; factoryMethodName=leituraArquivoMultiplosFormatosStepConfig; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [br/com/estudandoemcasa/spring/batch/step/LeituraArquivoMultiplosFormatosStepConfig.class]] for bean 'leituraArquivoMultiplosFormatosStepConfig': There is already [Generic bean: class [br.com.estudandoemcasa.spring.batch.step.LeituraArquivoMultiplosFormatosStepConfig]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes\br\com\estudandoemcasa\spring\batch\step\LeituraArquivoMultiplosFormatosStepConfig.class]] bound.
+2022-06-13 16:10:54,410 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 24428 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:10:54,416 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:10:55,074 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:10:55,491 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:10:56,121 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:10:56,303 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:10:56,607 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:10:56,741 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.929 seconds (JVM running for 4.093)
+2022-06-13 16:10:56,888 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:10:56,908 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-06-13 16:11:54,166 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 18328 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:11:54,177 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:11:54,841 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:11:55,206 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:11:55,639 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:11:55,739 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:11:56,006 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:11:56,119 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.465 seconds (JVM running for 3.471)
+2022-06-13 16:11:56,272 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:11:56,272 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-06-13 16:18:24,735 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 6592 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:18:24,735 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:18:25,384 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:18:25,784 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:18:26,248 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:18:26,334 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:18:26,567 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:18:26,684 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.491 seconds (JVM running for 3.441)
+2022-06-13 16:18:26,867 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:18:26,867 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-06-13 16:21:03,977 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 29744 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:21:03,994 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:21:07,234 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 22536 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:21:07,234 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:21:07,844 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:21:08,227 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:21:08,743 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:21:08,849 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:21:09,116 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:21:09,232 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.549 seconds (JVM running for 3.649)
+2022-06-13 16:21:09,394 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:21:09,411 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2022-06-13 16:25:02,612 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 14300 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:25:02,616 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:25:03,281 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:25:03,642 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:25:04,113 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:25:04,542 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:25:04,761 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:25:04,859 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.754 seconds (JVM running for 3.691)
+2022-06-13 16:25:04,982 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=1, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 16:25:05,059 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoMultiplosFormatosStep]
+2022-06-13 16:25:05,212 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoMultiplosFormatosStep] executed in 153ms
+2022-06-13 16:25:05,231 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=1, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 201ms
+2022-06-13 16:25:05,236 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:25:05,248 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 16:26:54,722 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 15912 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:26:54,732 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:26:55,363 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:26:55,779 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:26:56,246 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:26:56,346 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:26:56,669 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:26:56,779 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.633 seconds (JVM running for 3.645)
+2022-06-13 16:26:56,984 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=2, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 16:26:57,047 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoMultiplosFormatosStep]
+2022-06-13 16:26:57,162 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoMultiplosFormatosStep] executed in 115ms
+2022-06-13 16:26:57,179 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=2, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 162ms
+2022-06-13 16:26:57,179 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:26:57,179 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 16:34:07,748 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 21140 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:34:07,748 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:34:08,383 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:34:08,867 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:34:09,445 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:34:09,565 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:34:09,861 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:34:10,007 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.811 seconds (JVM running for 3.887)
+2022-06-13 16:34:10,163 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=3, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 16:34:10,242 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoMultiplosFormatosStep]
+2022-06-13 16:34:10,390 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoMultiplosFormatosStep] executed in 148ms
+2022-06-13 16:34:10,415 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=3, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 211ms
+2022-06-13 16:34:10,422 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:34:10,431 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 16:35:01,981 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 27600 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:35:01,981 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:35:02,617 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:35:03,030 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:35:03,514 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:35:03,614 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:35:03,881 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:35:03,999 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.52 seconds (JVM running for 3.557)
+2022-06-13 16:35:04,154 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=4, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 16:35:04,279 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoMultiplosFormatosStep]
+2022-06-13 16:35:04,398 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoMultiplosFormatosStep] executed in 119ms
+2022-06-13 16:35:04,415 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=4, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 229ms
+2022-06-13 16:35:04,429 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:35:04,438 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 16:41:35,159 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 34236 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:41:35,159 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:41:35,685 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:41:36,024 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:41:36,475 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:41:36,575 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:41:36,861 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:41:37,025 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 2.286 seconds (JVM running for 3.121)
+2022-06-13 16:41:37,180 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=5, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 16:41:37,242 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoMultiplosFormatosStep]
+2022-06-13 16:41:37,454 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoMultiplosFormatosStep] executed in 212ms
+2022-06-13 16:41:37,482 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=5, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 262ms
+2022-06-13 16:41:37,486 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:41:37,503 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-13 16:45:18,137 INFO b.c.e.s.b.JobSpringBatchApplication [main] Starting JobSpringBatchApplication on WINAPRhdcYO80Yu with PID 22548 (C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch\target\classes started by miguel.silva in C:\Users\m.e.pereira.da.silva\Documents\Aplicações Java\spring-batch)
+2022-06-13 16:45:18,154 INFO b.c.e.s.b.JobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2022-06-13 16:45:18,661 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-06-13 16:45:18,998 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-13 16:45:19,387 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-13 16:45:19,471 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-06-13 16:45:19,668 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-06-13 16:45:19,755 INFO b.c.e.s.b.JobSpringBatchApplication [main] Started JobSpringBatchApplication in 1.994 seconds (JVM running for 2.741)
+2022-06-13 16:45:19,855 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] launched with the following parameters: [{run.id=6, arquivoClientes=files/clientes_multiplos_formatos.txt}]
+2022-06-13 16:45:19,922 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [leituraArquivoMultiplosFormatosStep]
+2022-06-13 16:45:20,055 INFO o.s.b.c.s.AbstractStep [main] Step: [leituraArquivoMultiplosFormatosStep] executed in 129ms
+2022-06-13 16:45:20,071 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=arquivoLarguraFixaJob]] completed with the following parameters: [{run.id=6, arquivoClientes=files/clientes_multiplos_formatos.txt}] and the following status: [COMPLETED] in 183ms
+2022-06-13 16:45:20,071 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-13 16:45:20,087 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
